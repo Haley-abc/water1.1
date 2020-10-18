@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/bt_advanced"
+            android:text="先进榜"
+            android:background="#3283A0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <Button
+            android:id="@+id/bt_progress"
+            android:text="进步榜"
+            android:background="#3283A0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        <Button
+            android:id="@+id/bt_grade"
+            android:text="等级榜"
+            android:background="#3283A0"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp">
+    </FrameLayout>
+</LinearLayout>

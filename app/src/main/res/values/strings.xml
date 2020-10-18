@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">点滴水</string>
+    <string name="title_water">用水</string>
+    <string name="title_rink">排行榜</string>
+    <string name="title_contact">社交</string>
+    <string name="title_service">服务</string>
+    <string name="title_reservoir">水库</string>
+</resources>
